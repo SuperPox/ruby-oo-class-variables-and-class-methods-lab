@@ -1,0 +1,26 @@
+
+[1mFrom:[0m /home/calebkohl/Development/code/phase1/ruby-oo-class-variables-and-class-methods-lab/lib/song.rb @ line 55 Song.genre_count:
+
+    [1;34m51[0m: [32mdef[0m [1;36mself[0m.[1;34mgenre_count[0m
+    [1;34m52[0m:     [1;34m# keys = name of each genre (rap, pop)[0m
+    [1;34m53[0m:     [1;34m# values = number of songs in that genre[0m
+    [1;34m54[0m:     [36m@@genres[0m
+ => [1;34m55[0m:     binding.pry
+    [1;34m56[0m: 
+    [1;34m57[0m:     [36m@@genre_count[0m.each_key [32mdo[0m |keyGengre|
+    [1;34m58[0m:         keyGenre = [36m@@genres[0m
+    [1;34m59[0m:     [32mend[0m
+    [1;34m60[0m:     [36m@@genre_count[0m.each_value [32mdo[0m |valueCount|
+    [1;34m61[0m:         valueCount = [36m@@count[0m
+    [1;34m62[0m:     [32mend[0m
+    [1;34m63[0m: 
+    [1;34m64[0m:     [1;34m# @@genre_count.each do |key, value|[0m
+    [1;34m65[0m:     [1;34m#     key = @@genres[0m
+    [1;34m66[0m:     [1;34m#     value = @@count[0m
+    [1;34m67[0m:     [1;34m# end[0m
+    [1;34m68[0m: 
+    [1;34m69[0m: 
+    [1;34m70[0m: 
+    [1;34m71[0m:     [32mreturn[0m [36m@@genre_count[0m
+    [1;34m72[0m: [32mend[0m
+
